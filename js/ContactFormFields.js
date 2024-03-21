@@ -1,13 +1,13 @@
 export const contactInputs = [
     {
         type: 'text',
-        name: 'name',
+        name: 'fullName',
         placeholder: '\xa0',
         value: null,
         required: true,
         autofocus: false,
-        label: 'Nombre',
-        errorMsg: 'Este campo no puede ir vacío',
+        label: 'Full Name',
+        errorMsg: 'This field cannot be empty',
     },
     {
         type: 'email',
@@ -17,7 +17,7 @@ export const contactInputs = [
         required: true,
         autofocus: false,
         label: 'Email',
-        errorMsg: 'Este campo no puede ir vacío',
+        errorMsg: 'This field cannot be empty',
     },
     {
         type: 'text',
@@ -26,7 +26,7 @@ export const contactInputs = [
         value: null,
         required: true,
         autofocus: false,
-        label: 'Asunto',
-        errorMsg: 'Este campo no puede ir vacío',
+        label: 'Subject',
+        errorMsg: 'This field cannot be empty',
     },
 ];

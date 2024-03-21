@@ -4,10 +4,9 @@ export const createInputs = (classes, input)=>{
 
     const divInputContainer = createElement('div', [{type: 'class', name: `${classes.divInputContainer}`}]);
     const inputItem = createElement('input', [
-        {type: 'class', name: `${classes.inputData}`},
+        {type: 'class', name: `${classes.inputData} ${input.name}`},
         {type: `type`, name: `${input.type}`},
         {type: `name`, name: `${input.name}`},
-        // {type: `placeholder`, name: `${input.placeholder}`},
     ]);
 
     if(input.placeholder)
