@@ -398,16 +398,16 @@ header {
     text-align: center;
 }
 
-.portfolio {
+.portfolio__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: .3em;
 }
 
-.portfolio__item {
-    background: var(--clr-accent);
+/*.portfolio__item {
+    !*background: var(--clr-accent);*!
     overflow: hidden;
-}
+}*/
 
 .portfolio__img {
     transition:
