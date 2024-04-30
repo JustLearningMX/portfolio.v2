@@ -14,7 +14,7 @@ export const projects = [
         'descripcion': 'To-do application in Angular 15. Allows a user to register and login to create their To-Do Lists and Tasks. It uses the proprietary Rest API.',
         'img': 'todo_list_views.png',
         'repositorio': 'https://github.com/JustLearningMX/todo-list-views',
-        'demostracion': 'https://justlearningmx.github.io/todo-list-views/inicio',
+        'demostracion': 'https://justlearningmx.github.io/todo-list-views/',
         'stack': ['Angular', 'PrimeNG', 'PrimeFlex', 'Github-Actions'],
         'proyectos': true,
         'alt': 'Mis Tareas -Angular',
