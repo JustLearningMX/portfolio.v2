@@ -38,24 +38,25 @@ export const card = (classes, project) => {
         divCardData.appendChild(cardDescription);
 
 
-        /*const divCardRepo = crearElemento('div', [{type: 'class', name: `${classes.divCardRepo}`}]);
-        const repoLink = crearElemento('a', [
+        /*Inicio*/
+        const divCardRepo = createElement('div', [{type: 'class', name: `${classes.divCardRepo}`}]);
+        const repoLink = createElement('a', [
             {type: 'class', name: `${classes.divCardRepoLink}`},
             {type: 'href', name: `${project.repositorio}`},
             {type: 'target', name: `_blank`}
         ]);
-        const fontAwesomeRepo = crearElemento('i', [{type: 'class', name: `fa-brands fa-github-alt fa-lg`}]);
-        const pRepo = crearElemento('p', [{type: 'class', name: `${classes.repo_demo_title}`}]);
-        pRepo.textContent = 'Repo y demo links:';
+        const fontAwesomeRepo = createElement('i', [{type: 'class', name: `fab fa-github fa-lg`}]);
+        const pRepo = createElement('p', [{type: 'class', name: `${classes.repo_demo_title}`}]);
+        pRepo.textContent = 'Repo and demo links:';
         divCardRepo.appendChild(pRepo);
         repoLink.appendChild(fontAwesomeRepo);
 
-        const demoLink = crearElemento('a', [
+        const demoLink = createElement('a', [
             {type: 'class', name: `${classes.divCardDemoLink}`},
             {type: 'href', name: `${project.demostracion}`},
             {type: 'target', name: `_blank`}
         ]);
-        const fontAwesomeDemo = crearElemento('i', [{type: 'class', name: `fa-solid fa-play fa-lg`}]);
+        const fontAwesomeDemo = createElement('i', [{type: 'class', name: `fa fa-play fa-lg`}]);
         demoLink.appendChild(fontAwesomeDemo);
 
         divCardRepo.appendChild(repoLink);
@@ -63,16 +64,17 @@ export const card = (classes, project) => {
 
         divCardData.appendChild(divCardRepo);
 
-        const divCardStack = crearElemento('div', [{type: 'class', name: `${classes.divCardStack}`}]);
-        if(project.stack){
+        const divCardStack = createElement('div', [{type: 'class', name: `${classes.divCardStack}`}]);
+        /*if(project.stack){
             project.stack.map((item)=>{
-                const stackItem = crearElemento('p', [{type: 'class', name: `${classes.divCardStackItem}`}]);
+                const stackItem = createElement('p', [{type: 'class', name: `${classes.divCardStackItem}`}]);
                 stackItem.textContent = item;
                 divCardStack.appendChild(stackItem);
             });
-        };
+        };*/
 
-        divCardData.appendChild(divCardStack);*/
+        divCardData.appendChild(divCardStack);
+        /*Fin*/
 
         card.appendChild(divCardData);
     }

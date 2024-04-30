@@ -54,15 +54,15 @@
 }
 
 .repo_demo_title {
-    /* border: 1px solid red; */
+    color: var(--clr-accent);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: .3rem;
 }
 
 .proyectos__card__repo-link:hover,
 .proyectos__card__demo-link:hover{
-    color: var(--amarillo);
+    color: var(--clr-light);
     cursor: pointer;
 }
 
@@ -121,7 +121,12 @@
     }
     
     .proyectos__card__repo-link{
+        color: var(--clr-accent);
         margin-right: 1.2rem;
+    }
+
+    .proyectos__card__demo-link{
+        color: var(--clr-accent);
     }
     
     .proyectos__card__stack{    
