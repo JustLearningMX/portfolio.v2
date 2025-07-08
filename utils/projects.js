@@ -25,7 +25,7 @@ export const projects = [
             '\n',
         'img': 'palomazos-api-rest.png',
         'repositorio': 'https://github.com/Team21-Fullstack-JS/palomazos-api',
-        'demostracion': 'https://palomazos-api-a0bcbaa57f47.herokuapp.com/api/v1/documentation/',
+        'demostracion': 'http://40.233.31.197/palomazos-api/v1/documentation/',
         'stack': ['Javascript', 'NodeJS', 'ExpressJS', 'MySQL', 'Swagger UI', 'PassportJS', 'Heroku'],
         'proyectos': true,
         'alt': 'Palomazos -NodeJS and ExpressJS',
