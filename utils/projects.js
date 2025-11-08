@@ -4,7 +4,7 @@ export const projects = [
         'descripcion': 'API Rest of a to-do application. It allows a user to register and log in to create their Task Lists and Tasks, saving the data in a MySQL DB.',
         'img': 'todo_list_api.png',
         'repositorio': 'https://github.com/JustLearningMX/todo-list',
-        'demostracion': 'https://mistareas-api-02abe3439d68.herokuapp.com/swagger-ui/index.html',
+        'demostracion': 'https://hiram-oci-mty.duckdns.org/todo-list-api/v1/swagger-ui/index.html',
         'stack': ['Spring Boot', 'Spring security', 'Java', 'MySQL', 'Swagger UI', 'Heroku'],
         'proyectos': true,
         'alt': 'Mis Tareas -Spring Boot',
